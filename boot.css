@@ -1,0 +1,47 @@
+body
+{
+    height: 100vh;
+    width: 100%;
+}
+.carousel
+{
+    height: 100vh;
+    width: 100%;
+}
+.carousel .carousel-inner
+{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-inner .carousel-item
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-inner .carousel-item img
+{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-caption
+{
+    height: 60vh;
+    width: 70%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: solid transparent;
+    /* position: absolute; */
+    /* left: 100px; */
+    align-items: center;
+    position: relative;
+    bottom: -100px;
+}
+
+@media(max-width: 765px){
+    .carousel-caption
+    {
+        display: block;
+    }
+}

@@ -1,0 +1,35 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.box
+{
+    height:1150px;
+    width: 100%;
+    background-color: rgb(104, 170, 219)
+    
+}
+.sun
+{
+    animation-name: sun-animation;
+    animation-duration: 7s;
+    animation
+}
+@keyframes sun-animation
+{
+    from
+    {
+        transform: translateX(-500px);
+    }
+    to
+    {
+        transform: translateX(2700px);
+    }
+}
+.cloud
+{
+    height: 100%;
+    width: 100%;
+}

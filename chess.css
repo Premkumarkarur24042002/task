@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: grey;
+}
+.box
+{
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin: 50px auto;
+}
+.row
+{
+    display: flex;
+}
+.white
+{
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    text-align: center;
+}
+.black
+{
+    background-color: grey;
+
+}

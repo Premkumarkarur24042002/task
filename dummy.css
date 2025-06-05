@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(51, 51, 187);
+}
+.header
+{
+    height: 200px;
+    width: 700px;
+    border: solid black;
+}
+.nav
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 300px;
+    gap: 38px;
+}
+.box
+{
+    display: flex
+}
+.home
+{
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 20px;
+    width: 70px;
+}
+.button
+{
+    height: 20px;
+    width: 90px;
+    border-radius: 20px;
+    border: solid 1px;
+}
